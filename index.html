@@ -4,16 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My simple Blog</title>
+    <link rel="stylesheet" href="css/style.css">
     
 </head>
 <body>
     <header>
         <nav>
             <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Contact</li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li>
+                <a href="#">Blog</a>
+                <ul class="dropdown">
+                    <li><a href="#">News</a></li>
+                    <li>
+                        <a href="#">Sports</a>
+                        <ul class="dropdown">
+                            <li><a class="sub" href="#">Cricket</a></li>
+                            <li><a class="sub"href="#">Football</a></li>
+                            <li><a class="sub"href="#">Hockey</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Entertainment</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
             
         </ul>
         </nav>
@@ -22,7 +38,7 @@
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
 </html>
